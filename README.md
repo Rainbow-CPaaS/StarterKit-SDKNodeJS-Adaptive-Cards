@@ -1,8 +1,12 @@
-# Starter-Kit Rainbow SDK for Node.JS
+# Starter-Kit Rainbow SDK for Node.JS with Adaptive Cards
 
 Welcome to the Alcatel-Lucent Enterprise **Starter-Kit Rainbow SDK for Node.JS**!
 
 The Alcatel-Lucent Enterprise (ALE) Starter-Kit Rainbow SDK for Node.JS is a basic sample for starting your development using the SDK for Node.JS in an easy way and within an advanced environment.
+
+This Starter Kit include some Adaptive Cards answers [Adaptive Cards](https://adaptivecards.io/)
+
+> NOTE: Rainbow Adaptive cards support is only available on the new Web UCaaS interface and on Android, other platform will support it soon. 
 
 
 ## Preamble
@@ -46,6 +50,10 @@ Once you have configured these two files, you can start the application by launc
 $ node index.js
 
 ```
+
+## Adaptive Card Testing
+
+Some adaptive card answers are available with predefine data associated with. From Rainbow Chat please ask `#help` in order to get the list of available cards.
 
 
 ## Server API
